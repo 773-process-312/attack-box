@@ -4,7 +4,7 @@ Base scripts for an Ubuntu based attack box
 Installation
 ------
 1) Download and setup the base OS/Virtual Machine of your choosing, my personal prefference is [Ubuntu MATE](https://ubuntu-mate.org/ "Ubuntu MATE").
-2) Place the 'packages_list.txt' in the directory of your choice and run the following command:** for package in $(cat packages_list.txt);do apt-get install -yy $package; done**...Or utilise a custom (most likely better) script :), the for loop above isn't clean or quick but it gets the job done.
+2) Place the 'packages_list.txt' in the directory of your choice and run the following command: for package in $(cat packages_list.txt);do apt-get install -yy $package; done...Or utilise a custom (most likely better) script :), the for loop above isn't clean or quick but it gets the job done.
 3) Once complete, change into your preffered installation directory for github installations and execute the git.sh script.
 
 What is included?
